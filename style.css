@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+html,
+body {
+}
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+}
+h4 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+.component {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: nowrap;
+  background: hsl(225, 100%, 94%) left top no-repeat
+    url("./images/pattern-background-desktop.svg");
+  background-size: contain;
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  margin: auto;
+  max-width: 375px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.cardInfo {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+.planSummary {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  padding: 15px 0px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.planSummary img {
+  width: 45px;
+  height: 45px;
+}
+
+button {
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  background: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 15px;
+  padding: 15px 0px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px 0px hsl(245deg 75% 52% / 20%);
+}
+button:hover {
+  background-color: #766cf1;
+}
+
+.linkA {
+  font-size: 14px;
+}
+.linkA:hover {
+  text-decoration: none;
+}
+
+.linkB {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+.linkB:visited,
+.linkB:active {
+  color: hsl(224, 23%, 55%);
+}
+.linkB:hover {
+  color: black;
+}
+
+.attribution {
+  font-size: 8px;
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    min-width: 250px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .planSummary {
+    flex-direction: column;
+    text-align: center;
+  }
+}
