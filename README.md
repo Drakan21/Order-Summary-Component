@@ -31,6 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHUB repo solution](https://github.com/Drakan21/Order-Summary-Component)
+- Live solution: [Live webpage](https://drakan21.github.io/Order-Summary-Component/)
 
 ## My process
 
